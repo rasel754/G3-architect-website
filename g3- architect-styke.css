@@ -127,7 +127,17 @@ main{
 
 
 }
-
+/* .Our sponsor section style */
+.Sponspors{
+    text-align: center;
+}
+.sponspors-img-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 20px;
+}
 
  /* responsive media queries */
  /* mobile devices */
@@ -150,7 +160,8 @@ main{
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .team-content , .facts-card-container{
+    .team-content , .facts-card-container,
+    .sponspors-img-container{
         padding-left: 20px;
         padding-right: 20px;
     }
